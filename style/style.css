@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.header{
+   background-image: url('../assets/background.png');
+   background-repeat: no-repeat;
+   height: 15rem;
+}
+
+.logo-img{
+  text-align: center;
+}
+
+.header-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7rem;
+}
+
+img{
+    margin-top: 8rem;
+    border-radius: 50%;
+    height: 10rem;
+}
+
+
+#btn-lanches, #btn-bebidas, #btn-molhos, #btn-sobre{
+    margin-right: 0.5rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 10rem;
+    border: none;
+    background-color: darkgoldenrod;
+    color: white;
+    cursor: pointer;
+}
+
+#btn-lanches:hover, #btn-bebidas:hover, #btn-molhos:hover, #btn-sobre:hover{
+    background-color: rgb(218, 175, 120);
+}
+
+.conteudos{
+    background-color: brown;
+    margin-top: 2rem;
+    text-align:start;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.conteudos-lanches-text{
+    padding: 2rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.container-lanches{
+    display: flex;
+    align-items: stretch;
+    gap: 2rem;
+    background-color: brown;
+    margin-top: 2rem;
+    padding: 2rem;
+    scroll-behavior: smooth;
+    overflow-x: scroll;
+}
+
+.card-lanche{
+    border-radius: 2rem;
+    background-color: #fff;
+    padding: 3rem;
+    width: 25rem;
+    height: 40rem;
+    flex: 0 0 auto; /* impede o card de encolher */
+}
+
+.container-lanches::-webkit-scrollbar{
+    display: none;
+}
