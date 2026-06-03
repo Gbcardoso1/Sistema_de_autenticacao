@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    border: none;
+}
+
+body{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Cadastrar-container{
+    margin-top: 20rem;
+    background-color: rgb(86, 92, 89);
+    padding: 5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input{
+    padding: 10px;
+    border: none;
+    margin: 10px;
+    width: 20rem;
+}
+
+input:hover{
+    padding: 12px;
+    transition: 0.3s;
+}
+
+label{
+    font-weight: 300;
+}
+
+.model-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btnCadastrar{
+    padding: 10px;
+    width: 20rem;
+    margin: 1rem;
+    border: none;
+    background-color: rgb(236, 203, 13);
+    color: #fff;
+}
+
+#btnCadastrar:hover{
+    background-color: rgb(172, 148, 15);
+    transition: 0.3s;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}

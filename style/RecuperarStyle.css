@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.recuperarSenha{
+    margin: auto;
+    margin-top: 20rem;
+    background-color: rgb(86, 92, 89);
+    padding: 5rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
