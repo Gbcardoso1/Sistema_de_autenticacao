@@ -1,67 +1,89 @@
-*{
-    box-sizing: border-box;
-    padding: 0;
+body {
     margin: 0;
-    font-family: sans-serif;
-    border: none;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
 }
 
-body{
+
+
+.Cadastrar-container {
+    width: 320px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px #ccc;
+
+}
+
+
+
+.Cadastrar-container label {
+    color: #333;
+    font-size: 14px;
+
+}
+
+
+
+.Cadastrar-container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+
+}
+
+
+
+.Cadastrar-container input:focus {
+    border-color: #007bff;
+
+}
+
+
+
+.model-btn button {
+    width: 100%;
+    padding: 11px;
+    border: none;
+    border-radius: 6px;
+    background: #007bff;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    cursor: pointer;
+    font-size: 15px;
+
 }
 
-.Cadastrar-container{
-    margin-top: 20rem;
-    background-color: rgb(86, 92, 89);
-    padding: 5rem;
-    border-radius: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+
+
+.model-btn button:hover {
+    background: #005fcc;
+
 }
 
-input{
-    padding: 10px;
-    border: none;
-    margin: 10px;
-    width: 20rem;
-}
 
-input:hover{
-    padding: 12px;
-    transition: 0.3s;
-}
 
-label{
-    font-weight: 300;
-}
-
-.model-btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#btnCadastrar{
-    padding: 10px;
-    width: 20rem;
-    margin: 1rem;
-    border: none;
-    background-color: rgb(236, 203, 13);
-    color: #fff;
-}
-
-#btnCadastrar:hover{
-    background-color: rgb(172, 148, 15);
-    transition: 0.3s;
-}
-
-a{
+.Cadastrar-container a {
+    display: block;
+    text-align: center;
+    margin-top: 18px;
+    color: #007bff;
     text-decoration: none;
-    color: #fff;
+    font-size: 14px;
+
+}
+
+
+
+.Cadastrar-container a:hover {
+    text-decoration: underline;
+
 }
