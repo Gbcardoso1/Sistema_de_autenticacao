@@ -1,14 +1,18 @@
 
-const banco = require("../config/database");
+//ROTAS DE CADASTRO 
 
-const {
-    criarHash,
-    compararSenha
-} = require("../utils/password");
+const express = require('express');
+const router = express.Router();
 
-const jwt = require("jsonwebtoken");
+const {registro,login,enviarCodigo,validarCodigo,redefinirSenha} = require("../controllers/authControllers");
 
-exports.cadastrar = async(req,res)=>{
-    
-}
+router.post("/registro", register);
+router.post("/login", login);
+router.post("/esqueceu-senha", enviarCodigo);
+router.post("/verificar-codigo", validarCodigo);
+router.post("/resertar-senha", redefinirSenha);
+
+
+module.exports = router;
+
 
